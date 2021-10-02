@@ -57,12 +57,13 @@ repositories {
     maven { url = "http://mobiusstrip.eu/maven" }
     maven { url = "http://chickenbones.net/maven/" }
     maven { url = "http://maven.tterrag.com/" }
+    maven { url = "https://jitpack.io" }
 }
 
 dependencies {
-    compile "team.chisel:Chisel:${chisel_version}:api"
-    compileOnly "org.projectlombok:lombok:1.16.4"
-    annotationProcessor "org.projectlombok:lombok:1.16.4"
+    compile "com.github.GTMEGA:chisel:${chisel_version}:api"
+    compileOnly "org.projectlombok:lombok:${lombok_version}"
+    annotationProcessor "org.projectlombok:lombok:${lombok_version}"
 }
 
 processResources

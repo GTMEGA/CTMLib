@@ -1,3 +1,13 @@
+1.4.6:
+Changes
+- Updated Gradle Wrapper to 5.6.4
+- Switched the ForgeGradle source
+- Added Lombok as an annotation and switched from compile to compileOnly
+- Updated Lombok to 1.18.20
+- Changed Chisel to use latest 1.7/dev-3.0 build from JitPack
+Fixes
+- Project now loads in Intellij without issue
+
 1.4.1:
 Changes
 - Call preRenderSide and postRenderSide even when rendering standard block
